@@ -1,0 +1,15 @@
+feature
+N
+P
+K
+temperature
+humidity
+ph
+rainfall
+N_P_ratio
+N_K_ratio
+P_K_ratio
+NPK_total
+temp_humidity_index
+rainfall_category
+ph_category

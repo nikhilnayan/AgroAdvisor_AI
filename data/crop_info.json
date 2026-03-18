@@ -1,0 +1,439 @@
+{
+  "_meta": {
+    "source": "Compiled from ICAR (Indian Council of Agricultural Research) crop guidelines, FAO crop database, and Kaggle agricultural datasets",
+    "last_updated": "2025-01-15",
+    "version": "1.0"
+  },
+  "crops": {
+    "rice": {
+      "name": "Rice",
+      "scientific_name": "Oryza sativa",
+      "family": "Poaceae (Gramineae)",
+      "category": "Cereal",
+      "description": "A staple cereal grain and one of the most important food crops globally. Thrives in tropical and subtropical climates with abundant water. India is the second-largest producer of rice worldwide.",
+      "growing_conditions": {
+        "temperature": { "min": 20, "max": 35, "optimal": "25-30", "unit": "°C" },
+        "rainfall": { "min": 100, "max": 200, "unit": "cm/year" },
+        "soil_ph": { "min": 5.5, "max": 7.0, "optimal": "6.0-6.5" },
+        "altitude": "Sea level to 2000m"
+      },
+      "soil": {
+        "type": "Clayey, loamy soil with good water retention",
+        "drainage": "Poorly drained (paddy requires standing water)",
+        "organic_matter": "Rich in organic matter preferred",
+        "nutrients": "Requires high nitrogen and moderate phosphorus"
+      },
+      "water": {
+        "requirement": "High",
+        "detail": "Requires 1200-2000mm water; standing water in paddy fields during most of growth",
+        "critical_stages": "Transplanting, tillering, and flowering"
+      },
+      "cultivation": {
+        "season": "Kharif (June-November)",
+        "sowing_months": "June-July",
+        "harvesting_months": "October-November",
+        "duration_days": { "min": 120, "max": 150 },
+        "method": "Transplanting or direct seeding"
+      },
+      "harvest": {
+        "indicator": "When grains turn golden and moisture content drops to 20-25%",
+        "yield_per_hectare": "3-6 tonnes (irrigated), 1.5-2.5 tonnes (rainfed)"
+      },
+      "major_states": ["West Bengal", "Uttar Pradesh", "Punjab", "Tamil Nadu", "Andhra Pradesh"],
+      "common_diseases": ["Rice blast", "Bacterial blight", "Sheath blight", "Brown spot"],
+      "nutritional_value": {
+        "calories_per_100g": 130,
+        "protein_g": 2.7,
+        "carbohydrates_g": 28,
+        "fiber_g": 0.4
+      }
+    },
+    "wheat": {
+      "name": "Wheat",
+      "scientific_name": "Triticum aestivum",
+      "family": "Poaceae (Gramineae)",
+      "category": "Cereal",
+      "description": "A major cereal crop grown in temperate regions. Requires cool weather during vegetative growth and warm, dry conditions for ripening. India is the second-largest wheat producer globally.",
+      "growing_conditions": {
+        "temperature": { "min": 12, "max": 25, "optimal": "15-20", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 100, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 7.5, "optimal": "6.5-7.0" },
+        "altitude": "Plains to 3000m"
+      },
+      "soil": {
+        "type": "Loamy, well-drained alluvial soil",
+        "drainage": "Well-drained essential",
+        "organic_matter": "Moderate to high",
+        "nutrients": "Balanced N-P-K requirement"
+      },
+      "water": {
+        "requirement": "Moderate",
+        "detail": "4-6 irrigations during the crop cycle; 400-500mm total water",
+        "critical_stages": "Crown root initiation, tillering, flowering, and grain filling"
+      },
+      "cultivation": {
+        "season": "Rabi (November-April)",
+        "sowing_months": "October-November",
+        "harvesting_months": "March-April",
+        "duration_days": { "min": 110, "max": 130 },
+        "method": "Broadcasting or drilling"
+      },
+      "harvest": {
+        "indicator": "When ear heads turn golden-brown and grain is hard",
+        "yield_per_hectare": "4-6 tonnes (irrigated), 1.5-2.5 tonnes (rainfed)"
+      },
+      "major_states": ["Uttar Pradesh", "Punjab", "Madhya Pradesh", "Haryana", "Rajasthan"],
+      "common_diseases": ["Rust (yellow, brown, black)", "Powdery mildew", "Karnal bunt", "Loose smut"],
+      "nutritional_value": {
+        "calories_per_100g": 340,
+        "protein_g": 13.2,
+        "carbohydrates_g": 72,
+        "fiber_g": 10.7
+      }
+    },
+    "maize": {
+      "name": "Maize",
+      "scientific_name": "Zea mays",
+      "family": "Poaceae (Gramineae)",
+      "category": "Cereal",
+      "description": "A versatile cereal used for food, animal feed, and industrial products. Adaptable to various climates and soil conditions. Also known as corn, it is the third most important cereal crop globally.",
+      "growing_conditions": {
+        "temperature": { "min": 18, "max": 32, "optimal": "21-27", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 100, "unit": "cm/year" },
+        "soil_ph": { "min": 5.5, "max": 7.5, "optimal": "6.0-7.0" },
+        "altitude": "Sea level to 2700m"
+      },
+      "soil": {
+        "type": "Well-drained loamy or sandy loam soil",
+        "drainage": "Good drainage essential; waterlogging is detrimental",
+        "organic_matter": "Rich in organic matter preferred",
+        "nutrients": "High nitrogen and phosphorus demand"
+      },
+      "water": {
+        "requirement": "Moderate",
+        "detail": "500-800mm total; critical during tasseling and grain filling",
+        "critical_stages": "Tasseling, silking, and grain filling"
+      },
+      "cultivation": {
+        "season": "Kharif and Rabi (year-round in many regions)",
+        "sowing_months": "June-July (Kharif), October-November (Rabi)",
+        "harvesting_months": "September-October (Kharif), February-March (Rabi)",
+        "duration_days": { "min": 80, "max": 110 },
+        "method": "Drilling or dibbling"
+      },
+      "harvest": {
+        "indicator": "When husks dry out and kernels are hard with a dent",
+        "yield_per_hectare": "5-8 tonnes (hybrid irrigated), 2-3 tonnes (rainfed)"
+      },
+      "major_states": ["Karnataka", "Madhya Pradesh", "Bihar", "Tamil Nadu", "Rajasthan"],
+      "common_diseases": ["Downy mildew", "Turcicum leaf blight", "Stem borer", "Maydis leaf blight"],
+      "nutritional_value": {
+        "calories_per_100g": 365,
+        "protein_g": 9.4,
+        "carbohydrates_g": 74,
+        "fiber_g": 7.3
+      }
+    },
+    "cotton": {
+      "name": "Cotton",
+      "scientific_name": "Gossypium hirsutum",
+      "family": "Malvaceae",
+      "category": "Cash Crop / Fiber",
+      "description": "A major cash crop grown for its fiber. Requires warm weather, adequate sunshine, and moderate rainfall for optimal boll development. India is the largest producer of cotton globally.",
+      "growing_conditions": {
+        "temperature": { "min": 21, "max": 35, "optimal": "25-30", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 100, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 8.0, "optimal": "6.5-7.5" },
+        "altitude": "Below 1000m"
+      },
+      "soil": {
+        "type": "Black cotton soil (vertisol), well-drained loamy",
+        "drainage": "Well-drained; sensitive to waterlogging",
+        "organic_matter": "Moderate",
+        "nutrients": "Balanced N-P-K with micronutrients"
+      },
+      "water": {
+        "requirement": "Moderate",
+        "detail": "700-1200mm total; sensitive to waterlogging",
+        "critical_stages": "Squaring, flowering, and boll development"
+      },
+      "cultivation": {
+        "season": "Kharif (April-October)",
+        "sowing_months": "April-May",
+        "harvesting_months": "October-January",
+        "duration_days": { "min": 150, "max": 180 },
+        "method": "Dibbling"
+      },
+      "harvest": {
+        "indicator": "When bolls open fully and cotton fiber is fluffy and white",
+        "yield_per_hectare": "1.5-3.0 tonnes (seed cotton)"
+      },
+      "major_states": ["Gujarat", "Maharashtra", "Telangana", "Karnataka", "Madhya Pradesh"],
+      "common_diseases": ["Bollworm", "Whitefly infestation", "Bacterial blight", "Fusarium wilt"],
+      "nutritional_value": {
+        "calories_per_100g": null,
+        "protein_g": null,
+        "carbohydrates_g": null,
+        "fiber_g": null
+      }
+    },
+    "soybean": {
+      "name": "Soybean",
+      "scientific_name": "Glycine max",
+      "family": "Fabaceae (Leguminosae)",
+      "category": "Oilseed / Legume",
+      "description": "A high-protein legume crop used for oil extraction, animal feed, and food products. Fixes nitrogen in soil through symbiotic bacteria, improving soil fertility.",
+      "growing_conditions": {
+        "temperature": { "min": 20, "max": 30, "optimal": "25-28", "unit": "°C" },
+        "rainfall": { "min": 60, "max": 100, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 7.0, "optimal": "6.2-6.8" },
+        "altitude": "Below 1500m"
+      },
+      "soil": {
+        "type": "Well-drained loamy to clay loam soil",
+        "drainage": "Well-drained; avoids waterlogged conditions",
+        "organic_matter": "High organic matter beneficial",
+        "nutrients": "Low nitrogen (fixes own N), moderate P and K"
+      },
+      "water": {
+        "requirement": "Moderate",
+        "detail": "450-700mm total; consistent moisture during pod filling",
+        "critical_stages": "Flowering, pod filling, and seed development"
+      },
+      "cultivation": {
+        "season": "Kharif (June-October)",
+        "sowing_months": "June-July",
+        "harvesting_months": "September-October",
+        "duration_days": { "min": 85, "max": 120 },
+        "method": "Drilling in rows"
+      },
+      "harvest": {
+        "indicator": "When leaves drop and pods turn brown and rattle when shaken",
+        "yield_per_hectare": "1.5-2.5 tonnes"
+      },
+      "major_states": ["Madhya Pradesh", "Maharashtra", "Rajasthan", "Karnataka", "Telangana"],
+      "common_diseases": ["Rust", "Yellow mosaic virus", "Bacterial pustule", "Pod borer"],
+      "nutritional_value": {
+        "calories_per_100g": 446,
+        "protein_g": 36.5,
+        "carbohydrates_g": 30,
+        "fiber_g": 9.3
+      }
+    },
+    "sugarcane": {
+      "name": "Sugarcane",
+      "scientific_name": "Saccharum officinarum",
+      "family": "Poaceae (Gramineae)",
+      "category": "Cash Crop / Sugar",
+      "description": "A tropical perennial grass grown for sugar production. Requires long warm growing seasons with adequate moisture. India is the second-largest sugar producer worldwide.",
+      "growing_conditions": {
+        "temperature": { "min": 20, "max": 35, "optimal": "27-32", "unit": "°C" },
+        "rainfall": { "min": 75, "max": 150, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 8.0, "optimal": "6.5-7.5" },
+        "altitude": "Below 1500m"
+      },
+      "soil": {
+        "type": "Deep, well-drained loamy or alluvial soil",
+        "drainage": "Well-drained but with good moisture retention",
+        "organic_matter": "High organic matter essential for sustained growth",
+        "nutrients": "Heavy feeder — requires high N, P, K, and micronutrients"
+      },
+      "water": {
+        "requirement": "High",
+        "detail": "1500-2500mm total; requires frequent irrigation",
+        "critical_stages": "Germination, tillering, and grand growth phase"
+      },
+      "cultivation": {
+        "season": "Year-round planting possible",
+        "sowing_months": "October-November (autumn), February-March (spring)",
+        "harvesting_months": "November-April (10-18 months after planting)",
+        "duration_days": { "min": 300, "max": 540 },
+        "method": "Sett planting (stem cuttings)"
+      },
+      "harvest": {
+        "indicator": "When sugar content peaks as measured by refractometer (Brix reading 18-20)",
+        "yield_per_hectare": "60-100 tonnes (cane)"
+      },
+      "major_states": ["Uttar Pradesh", "Maharashtra", "Karnataka", "Tamil Nadu", "Gujarat"],
+      "common_diseases": ["Red rot", "Smut", "Grassy shoot disease", "Wilt"],
+      "nutritional_value": {
+        "calories_per_100g": 73,
+        "protein_g": 0.2,
+        "carbohydrates_g": 18,
+        "fiber_g": 0.6
+      }
+    },
+    "tomato": {
+      "name": "Tomato",
+      "scientific_name": "Solanum lycopersicum",
+      "family": "Solanaceae",
+      "category": "Vegetable",
+      "description": "A widely grown vegetable crop that thrives in warm weather. Highly sensitive to frost and requires staking or trellising for support. Rich in lycopene and vitamins.",
+      "growing_conditions": {
+        "temperature": { "min": 18, "max": 27, "optimal": "21-24", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 75, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 7.0, "optimal": "6.2-6.8" },
+        "altitude": "Sea level to 1500m"
+      },
+      "soil": {
+        "type": "Well-drained sandy loam enriched with organic matter",
+        "drainage": "Excellent drainage required",
+        "organic_matter": "High — compost and farmyard manure recommended",
+        "nutrients": "Moderate N, high P and K for fruiting"
+      },
+      "water": {
+        "requirement": "Regular",
+        "detail": "Consistent moisture essential; drip irrigation recommended; 400-600mm total",
+        "critical_stages": "Flowering, fruit set, and fruit development"
+      },
+      "cultivation": {
+        "season": "Rabi and summer (October-March)",
+        "sowing_months": "September-October (nursery), November (transplanting)",
+        "harvesting_months": "January-March",
+        "duration_days": { "min": 60, "max": 90 },
+        "method": "Transplanting from nursery"
+      },
+      "harvest": {
+        "indicator": "When fruits turn uniformly red/pink and are firm to touch",
+        "yield_per_hectare": "20-40 tonnes"
+      },
+      "major_states": ["Andhra Pradesh", "Madhya Pradesh", "Karnataka", "Gujarat", "Odisha"],
+      "common_diseases": ["Early blight", "Late blight", "Leaf curl virus", "Fusarium wilt", "Bacterial wilt"],
+      "nutritional_value": {
+        "calories_per_100g": 18,
+        "protein_g": 0.9,
+        "carbohydrates_g": 3.9,
+        "fiber_g": 1.2
+      }
+    },
+    "onion": {
+      "name": "Onion",
+      "scientific_name": "Allium cepa",
+      "family": "Amaryllidaceae",
+      "category": "Vegetable",
+      "description": "A bulb vegetable crop grown worldwide. Cool weather favors bulb formation while warm, dry conditions are needed for curing and storage. India is the second-largest onion producer globally.",
+      "growing_conditions": {
+        "temperature": { "min": 13, "max": 24, "optimal": "15-20", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 75, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 7.5, "optimal": "6.0-7.0" },
+        "altitude": "Sea level to 1200m"
+      },
+      "soil": {
+        "type": "Well-drained sandy loam to loam soil",
+        "drainage": "Good drainage essential to prevent bulb rot",
+        "organic_matter": "Moderate — avoid fresh manure",
+        "nutrients": "Moderate N, high P and K, sulfur important"
+      },
+      "water": {
+        "requirement": "Moderate",
+        "detail": "Regular but light irrigation; 350-500mm total; stop irrigation before harvest",
+        "critical_stages": "Bulb formation and bulb enlargement"
+      },
+      "cultivation": {
+        "season": "Rabi (October-March) and Kharif (June-August)",
+        "sowing_months": "September-October (nursery), November (transplanting)",
+        "harvesting_months": "February-March (Rabi), October-November (Kharif)",
+        "duration_days": { "min": 120, "max": 150 },
+        "method": "Transplanting seedlings"
+      },
+      "harvest": {
+        "indicator": "When 50-75% of tops fall over naturally; necks soften",
+        "yield_per_hectare": "15-25 tonnes"
+      },
+      "major_states": ["Maharashtra", "Karnataka", "Madhya Pradesh", "Gujarat", "Bihar"],
+      "common_diseases": ["Purple blotch", "Stemphylium blight", "Downy mildew", "Thrips infestation"],
+      "nutritional_value": {
+        "calories_per_100g": 40,
+        "protein_g": 1.1,
+        "carbohydrates_g": 9.3,
+        "fiber_g": 1.7
+      }
+    },
+    "potato": {
+      "name": "Potato",
+      "scientific_name": "Solanum tuberosum",
+      "family": "Solanaceae",
+      "category": "Vegetable / Tuber",
+      "description": "A tuber crop that thrives in cool climates. Requires loose, fertile soil for tuber expansion and is sensitive to frost. The fourth most important food crop worldwide after rice, wheat, and maize.",
+      "growing_conditions": {
+        "temperature": { "min": 15, "max": 22, "optimal": "17-20", "unit": "°C" },
+        "rainfall": { "min": 50, "max": 75, "unit": "cm/year" },
+        "soil_ph": { "min": 5.0, "max": 6.5, "optimal": "5.5-6.0" },
+        "altitude": "Plains to 3000m (high altitude varieties)"
+      },
+      "soil": {
+        "type": "Loose, well-drained sandy loam",
+        "drainage": "Excellent drainage essential to prevent tuber rot",
+        "organic_matter": "High — well-decomposed compost",
+        "nutrients": "Moderate N, high P and K for tuber development"
+      },
+      "water": {
+        "requirement": "Regular",
+        "detail": "Consistent soil moisture essential; avoid flooding; 400-600mm total",
+        "critical_stages": "Stolon formation, tuber initiation, and tuber bulking"
+      },
+      "cultivation": {
+        "season": "Rabi (October-February)",
+        "sowing_months": "October-November",
+        "harvesting_months": "January-February",
+        "duration_days": { "min": 75, "max": 120 },
+        "method": "Planting seed tubers"
+      },
+      "harvest": {
+        "indicator": "When vine foliage yellows and dies back; tuber skin is firm and does not peel easily",
+        "yield_per_hectare": "20-35 tonnes"
+      },
+      "major_states": ["Uttar Pradesh", "West Bengal", "Bihar", "Gujarat", "Madhya Pradesh"],
+      "common_diseases": ["Late blight", "Early blight", "Black scurf", "Potato virus Y"],
+      "nutritional_value": {
+        "calories_per_100g": 77,
+        "protein_g": 2.0,
+        "carbohydrates_g": 17,
+        "fiber_g": 2.2
+      }
+    },
+    "jute": {
+      "name": "Jute",
+      "scientific_name": "Corchorus capsularis / Corchorus olitorius",
+      "family": "Malvaceae (Tiliaceae)",
+      "category": "Fiber Crop",
+      "description": "A natural fiber crop known as the 'golden fiber.' Thrives in warm, humid tropical climates with heavy rainfall. India is the largest producer of jute globally.",
+      "growing_conditions": {
+        "temperature": { "min": 24, "max": 37, "optimal": "27-32", "unit": "°C" },
+        "rainfall": { "min": 120, "max": 200, "unit": "cm/year" },
+        "soil_ph": { "min": 6.0, "max": 7.5, "optimal": "6.4-7.0" },
+        "altitude": "Below 500m (lowland/floodplain)"
+      },
+      "soil": {
+        "type": "Alluvial or loamy soil in floodplain areas",
+        "drainage": "Tolerates periodic waterlogging; river basin soils ideal",
+        "organic_matter": "High — alluvial deposits provide natural fertility",
+        "nutrients": "Moderate N and K; benefits from green manuring"
+      },
+      "water": {
+        "requirement": "High",
+        "detail": "Requires standing water and humid conditions; 1000-2000mm rainfall",
+        "critical_stages": "Active vegetative growth period"
+      },
+      "cultivation": {
+        "season": "Kharif (March-August)",
+        "sowing_months": "March-April",
+        "harvesting_months": "July-August",
+        "duration_days": { "min": 120, "max": 150 },
+        "method": "Broadcasting seeds"
+      },
+      "harvest": {
+        "indicator": "When flowers start shedding; stems are then retted in water for 10-15 days",
+        "yield_per_hectare": "2-3 tonnes (dry fiber)"
+      },
+      "major_states": ["West Bengal", "Bihar", "Assam", "Odisha", "Andhra Pradesh"],
+      "common_diseases": ["Stem rot", "Root rot", "Anthracnose", "Mite infestation"],
+      "nutritional_value": {
+        "calories_per_100g": null,
+        "protein_g": null,
+        "carbohydrates_g": null,
+        "fiber_g": null
+      }
+    }
+  }
+}

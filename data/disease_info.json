@@ -1,0 +1,481 @@
+{
+  "_meta": {
+    "source": "Compiled from PlantVillage dataset documentation, ICAR plant pathology guidelines, and agricultural extension resources",
+    "last_updated": "2025-01-15",
+    "model": "MobileNetV2 (transfer learning on PlantVillage)",
+    "version": "1.0"
+  },
+  "diseases": {
+    "Apple___Apple_scab": {
+      "name": "Apple Scab",
+      "plant": "Apple",
+      "scientific_name": "Venturia inaequalis",
+      "pathogen_type": "Fungal",
+      "severity": "High",
+      "description": "Apple scab is a serious fungal disease that causes dark, olive-green to black lesions on leaves and fruit. It overwinters in fallen infected leaves and releases spores in spring during wet weather, leading to primary infections on new foliage.",
+      "causes": [
+        "Fungal spores (Venturia inaequalis) overwintering in fallen leaves",
+        "Prolonged wet, cool weather (15-25°C) during spring",
+        "Poor air circulation in dense canopies",
+        "Overhead irrigation creating leaf wetness",
+        "Lack of resistant cultivars"
+      ],
+      "symptoms": [
+        "Olive-green to dark brown spots on leaves",
+        "Velvety or scabby lesions on fruit surface",
+        "Deformed or cracked fruit",
+        "Premature leaf drop",
+        "Reduced fruit size and quality"
+      ],
+      "affected_plants": ["Apple (all varieties)", "Crabapple", "Pear (occasionally)"],
+      "chemical_treatment": [
+        "Captan (contact fungicide) — apply at green tip stage",
+        "Myclobutanil (systemic fungicide) — during active infection",
+        "Mancozeb — preventive application during wet periods"
+      ],
+      "eco_friendly_treatment": [
+        "Neem oil spray (2-3%) — natural fungicide with minimal residue",
+        "Bordeaux mixture (copper sulfate + lime) — traditional organic fungicide",
+        "Potassium bicarbonate solution — disrupts fungal cell walls",
+        "Trichoderma-based biocontrol agents — competitive colonizers",
+        "Compost tea foliar spray — promotes beneficial microbes on leaf surface"
+      ],
+      "nutritional_impact": "Moderate — infected fruit may show reduced vitamin C content (up to 15% decrease) and lower sugar accumulation. Heavily scabbed fruit has lower market value but internal nutrition remains largely unaffected if disease is superficial.",
+      "best_practices": [
+        "Remove and destroy fallen infected leaves in autumn to reduce spore source",
+        "Plant scab-resistant varieties (Liberty, Enterprise, Freedom, Redfree)",
+        "Maintain open canopy through proper pruning for air circulation",
+        "Avoid overhead sprinklers; use drip irrigation instead",
+        "Apply preventive fungicide before rain during susceptible growth stages",
+        "Monitor weather forecasts and use disease prediction models for spray timing"
+      ],
+      "prevention": [
+        "Choose resistant cultivars when planting new orchards",
+        "Maintain proper spacing between trees (3-5m)",
+        "Regularly prune to improve air flow",
+        "Rake and compost fallen leaves to reduce inoculum",
+        "Apply dormant season lime-sulfur spray"
+      ]
+    },
+    "Corn_(maize)___Common_rust": {
+      "name": "Common Rust",
+      "plant": "Corn (Maize)",
+      "scientific_name": "Puccinia sorghi",
+      "pathogen_type": "Fungal",
+      "severity": "Moderate",
+      "description": "Common rust of corn is caused by the fungus Puccinia sorghi and is characterized by small, reddish-brown pustules on both leaf surfaces. The disease is most prevalent during moderate temperatures and high humidity, and spores can travel long distances via wind.",
+      "causes": [
+        "Wind-borne fungal spores from southern regions or alternate hosts",
+        "Moderate temperatures (16-23°C) with high humidity",
+        "Extended dew periods on leaf surfaces",
+        "Planting susceptible hybrids",
+        "Late planting that extends exposure during favorable disease conditions"
+      ],
+      "symptoms": [
+        "Small, circular to elongated reddish-brown pustules on leaves",
+        "Pustules appear on both upper and lower leaf surfaces",
+        "Heavily infected leaves may turn yellow and dry out",
+        "Reduction in photosynthetic area",
+        "In severe cases, pustules appear on husks and leaf sheaths"
+      ],
+      "affected_plants": ["Corn/Maize (sweet corn most susceptible)", "Sorghum (rarely)"],
+      "chemical_treatment": [
+        "Azoxystrobin (strobilurin fungicide) — systemic, broad-spectrum",
+        "Propiconazole (triazole fungicide) — curative action",
+        "Tebuconazole — preventive and curative"
+      ],
+      "eco_friendly_treatment": [
+        "Neem seed kernel extract (NSKE 5%) — reduces spore germination",
+        "Panchagavya spray (3%) — enhances plant immunity naturally",
+        "Silicon-based foliar spray — strengthens cell walls against penetration",
+        "Bacillus subtilis-based biocontrol — competitive exclusion of pathogen",
+        "Garlic extract spray — natural antifungal properties"
+      ],
+      "nutritional_impact": "Low to moderate — reduces grain filling efficiency by 5-15% in moderate infections. Protein content may decrease slightly in severely affected ears. Starch content largely unchanged for mild to moderate infections.",
+      "best_practices": [
+        "Plant rust-resistant hybrids (most modern hybrids have Rp resistance genes)",
+        "Avoid late planting to minimize exposure during peak spore season",
+        "Scout fields regularly from tasseling onward",
+        "Apply fungicide when pustules first appear on lower leaves",
+        "Rotate crops to reduce local inoculum buildup",
+        "Maintain balanced fertilization — avoid excessive nitrogen"
+      ],
+      "prevention": [
+        "Select hybrids with known rust resistance genes",
+        "Plant at recommended dates for your region",
+        "Maintain proper plant spacing for air circulation",
+        "Avoid excessive nitrogen which increases susceptibility",
+        "Monitor regional rust spore forecasts"
+      ]
+    },
+    "Grape___Black_rot": {
+      "name": "Black Rot",
+      "plant": "Grape",
+      "scientific_name": "Guignardia bidwellii",
+      "pathogen_type": "Fungal",
+      "severity": "High",
+      "description": "Grape black rot is a devastating fungal disease that can destroy an entire crop if left unmanaged. It causes circular brown lesions on leaves, dark sunken cankers on shoots, and eventually converts green berries into hard, black, shriveled mummies.",
+      "causes": [
+        "Fungal spores released from mummified berries during warm, wet spring weather",
+        "Extended periods of leaf wetness (6+ hours at 21-27°C)",
+        "Poor vineyard sanitation — old mummies left on vines or ground",
+        "Dense canopy restricting air movement",
+        "Heavy rainfall during bloom and fruit development"
+      ],
+      "symptoms": [
+        "Circular reddish-brown spots on leaves with dark borders",
+        "Dark pycnidia (fruiting bodies) visible in leaf spots",
+        "Infected berries develop light brown rot that spreads rapidly",
+        "Berries shrivel into hard, black, wrinkled mummies",
+        "Dark cankers on infected shoots"
+      ],
+      "affected_plants": ["Grape (all varieties, especially Concord, Niagara)", "Wild grape species"],
+      "chemical_treatment": [
+        "Mancozeb — protective, apply before infection periods",
+        "Captan — broad-spectrum contact fungicide",
+        "Myclobutanil — systemic with curative activity"
+      ],
+      "eco_friendly_treatment": [
+        "Bordeaux mixture (copper sulfate + lime) — traditional organic option",
+        "Sulfur dust or wettable sulfur spray — effective in dry conditions",
+        "Neem oil (2%) — suppresses fungal sporulation",
+        "Bacillus amyloliquefaciens foliar spray — colonizes leaves, out-competes fungus",
+        "Compost extract spray — introduces beneficial microbiome to leaf surface"
+      ],
+      "nutritional_impact": "High — severely infected berries are unmarketable. Sugar content (Brix) drops significantly in partially affected clusters. Wine quality from affected grapes is poor with off-flavors. Healthy berries on partially affected clusters maintain normal nutrition.",
+      "best_practices": [
+        "Remove and destroy all mummified fruit from vines and ground before bud break",
+        "Apply fungicide sprays from pre-bloom through 4-6 weeks post-bloom",
+        "Train vines for open canopy and good air circulation",
+        "Remove leaves around fruit clusters to speed drying",
+        "Cultivate soil to bury fallen mummies and reduce spore release",
+        "Use disease forecasting models based on temperature and wetness duration"
+      ],
+      "prevention": [
+        "Thorough winter sanitation — remove all mummies",
+        "Maintain open canopy through summer pruning",
+        "Select less susceptible varieties if available",
+        "Avoid overhead irrigation",
+        "Manage vineyard floor to decompose fallen debris"
+      ]
+    },
+    "Potato___Early_blight": {
+      "name": "Early Blight",
+      "plant": "Potato",
+      "scientific_name": "Alternaria solani",
+      "pathogen_type": "Fungal",
+      "severity": "Moderate to High",
+      "description": "Early blight of potato is one of the most common foliar diseases worldwide. It causes characteristic concentric-ring 'target spot' lesions on lower leaves first, progressively moving upward. The disease reduces photosynthetic area and can significantly reduce tuber yield.",
+      "causes": [
+        "Fungal spores (Alternaria solani) surviving in soil and plant debris",
+        "Alternating wet and dry periods with temperatures of 25-30°C",
+        "Nutritional stress, especially nitrogen or potassium deficiency",
+        "Aging plant tissue — older plants more susceptible",
+        "Consecutive potato cropping in same field without rotation"
+      ],
+      "symptoms": [
+        "Dark brown, circular lesions with concentric rings (target spots) on lower leaves",
+        "Yellow halo around lesions",
+        "Lesions may coalesce, causing entire leaves to wither",
+        "Disease progresses from lower to upper leaves",
+        "Tubers may develop dark, sunken surface lesions"
+      ],
+      "affected_plants": ["Potato (all varieties)", "Tomato", "Eggplant", "Pepper"],
+      "chemical_treatment": [
+        "Chlorothalonil — broad-spectrum protectant, apply preventively",
+        "Mancozeb — contact fungicide, preventive applications",
+        "Azoxystrobin — systemic strobilurin for curative control"
+      ],
+      "eco_friendly_treatment": [
+        "Trichoderma viride soil application — biocontrol agent against soil-borne inoculum",
+        "Neem cake application (250 kg/ha) — soil amendment reducing fungal survival",
+        "Pseudomonas fluorescens foliar spray — induces systemic resistance in plant",
+        "Wood ash dusting — provides potassium and creates alkaline surface unfavorable for fungus",
+        "Whey spray (diluted 1:10) — natural lactic acid inhibits fungal growth"
+      ],
+      "nutritional_impact": "Moderate — tuber starch content may decrease by 5-10% under heavy infection. Vitamin C content in tubers is not significantly affected. Yield reduction (10-30%) is the primary economic impact rather than nutritional quality change.",
+      "best_practices": [
+        "Practice 2-3 year crop rotation with non-solanaceous crops",
+        "Remove and destroy crop debris after harvest",
+        "Maintain adequate nitrogen and potassium fertilization",
+        "Irrigate early in the day so foliage dries before evening",
+        "Apply first fungicide when disease symptoms appear on lower leaves",
+        "Hill up soil around plants to protect tubers from spore wash-down"
+      ],
+      "prevention": [
+        "Use certified disease-free seed tubers",
+        "Select early blight tolerant varieties",
+        "Maintain proper plant spacing for air circulation",
+        "Avoid overhead irrigation during evening",
+        "Apply balanced fertilization especially potassium"
+      ]
+    },
+    "Tomato___Bacterial_spot": {
+      "name": "Bacterial Spot",
+      "plant": "Tomato",
+      "scientific_name": "Xanthomonas campestris pv. vesicatoria",
+      "pathogen_type": "Bacterial",
+      "severity": "High",
+      "description": "Bacterial spot is a destructive disease of tomato causing small, dark, water-soaked lesions on leaves, stems, and fruit. It thrives in warm, humid conditions and spreads rapidly through rain splash, overhead irrigation, and contaminated seed.",
+      "causes": [
+        "Bacterial pathogen (Xanthomonas) spread via contaminated seed or transplants",
+        "Rain splash and overhead irrigation dispersing bacteria",
+        "Warm, humid weather (24-30°C with frequent rain)",
+        "Wounds from wind, insects, or mechanical damage facilitating entry",
+        "Lack of copper-resistant management strategies"
+      ],
+      "symptoms": [
+        "Small, dark, water-soaked spots on leaves often with yellow halos",
+        "Lesions may coalesce causing large areas of leaf death",
+        "Raised, scab-like spots on green fruit",
+        "Fruit spotting reduces marketability",
+        "Severe defoliation exposing fruit to sunscald"
+      ],
+      "affected_plants": ["Tomato", "Pepper (bell and hot varieties)", "Other solanaceous crops"],
+      "chemical_treatment": [
+        "Copper hydroxide — bactericidal, reduced efficacy if resistance present",
+        "Streptomycin (where permitted) — antibiotic for early-season control",
+        "Mancozeb + copper tank mix — enhanced protection"
+      ],
+      "eco_friendly_treatment": [
+        "Bacillus subtilis QST 713 (Serenade) — OMRI-listed biocontrol",
+        "Acibenzolar-S-methyl (plant defense activator) — induces systemic resistance",
+        "Copper sulfate in dilute Bordeaux mixture — traditional organic option",
+        "Neem oil + baking soda spray — reduces bacterial load on foliage",
+        "Garlic-chili extract spray — natural antimicrobial barrier"
+      ],
+      "nutritional_impact": "Low — fruit with superficial spotting is safe to eat with normal nutritional content. Lycopene and vitamin C levels are not affected in non-necrotic fruit tissue. Severe infections cause yield loss rather than nutritional degradation.",
+      "best_practices": [
+        "Use certified pathogen-free seed or hot-water treated seed (50°C for 25 min)",
+        "Avoid working in fields when foliage is wet",
+        "Use drip irrigation instead of overhead sprinklers",
+        "Rotate out of solanaceous crops for 2+ years",
+        "Apply copper sprays preventively in warm, wet weather",
+        "Remove and destroy severely infected plants"
+      ],
+      "prevention": [
+        "Purchase disease-free transplants from reputable sources",
+        "Disinfect tools, trays, and greenhouse structures",
+        "Space plants adequately for air movement",
+        "Avoid handling plants when wet",
+        "Practice crop rotation"
+      ]
+    },
+    "Tomato___Early_blight": {
+      "name": "Early Blight",
+      "plant": "Tomato",
+      "scientific_name": "Alternaria solani",
+      "pathogen_type": "Fungal",
+      "severity": "Moderate to High",
+      "description": "Early blight of tomato is among the most common and damaging foliar diseases globally. It produces characteristic dark, concentric-ring 'bull's eye' or 'target spot' lesions on lower foliage and can infect stems, fruit, and seedlings.",
+      "causes": [
+        "Fungal spores surviving in infected plant debris and soil for up to 2 years",
+        "Warm humid conditions (24-29°C with high moisture)",
+        "Nutritional stress, particularly nitrogen deficiency",
+        "Aging or senescent lower leaves being most susceptible",
+        "Consecutive tomato or potato cropping in same soil"
+      ],
+      "symptoms": [
+        "Dark brown spots with concentric rings (target spots) starting on lower leaves",
+        "Yellow halo surrounding each lesion",
+        "Leaf yellowing and premature drop, progressing upward",
+        "Dark leathery spots at stem end of fruit",
+        "Collar rot on seedling stems near soil line"
+      ],
+      "affected_plants": ["Tomato", "Potato", "Eggplant", "Pepper", "Other Solanaceae"],
+      "chemical_treatment": [
+        "Chlorothalonil — protectant fungicide, apply before infection",
+        "Mancozeb — contact fungicide for preventive control",
+        "Azoxystrobin + difenoconazole — systemic combination for curative action"
+      ],
+      "eco_friendly_treatment": [
+        "Neem oil foliar spray (2-3%) — inhibits spore germination",
+        "Trichoderma harzianum soil and foliar application — biocontrol antagonist",
+        "Pseudomonas fluorescens seed treatment and foliar spray — induces systemic resistance",
+        "Cow urine spray (10% dilution) — traditional antifungal used in organic farming",
+        "Baking soda (sodium bicarbonate 0.5%) spray — creates alkaline surface inhibiting fungal growth"
+      ],
+      "nutritional_impact": "Low to moderate — lycopene content in infected fruit may decrease by 8-12%. Vitamin C is largely unaffected in non-necrotic tissue. Fruit from defoliated plants may have lower sugar content due to reduced photosynthesis.",
+      "best_practices": [
+        "Mulch around plants to prevent soil splash carrying spores to leaves",
+        "Stake or cage plants for better air circulation and reduced soil contact",
+        "Water at the base of plants; avoid wetting foliage",
+        "Remove lower leaves that show symptoms immediately",
+        "Practice 3-year rotation with non-solanaceous crops",
+        "Apply preventive fungicide before rainy periods"
+      ],
+      "prevention": [
+        "Choose tolerant varieties (Mountain Magic, Iron Lady)",
+        "Start with disease-free transplants",
+        "Apply thick organic mulch (straw, wood chips)",
+        "Maintain adequate plant nutrition",
+        "Destroy plant debris after harvest"
+      ]
+    },
+    "Tomato___Late_blight": {
+      "name": "Late Blight",
+      "plant": "Tomato",
+      "scientific_name": "Phytophthora infestans",
+      "pathogen_type": "Oomycete (water mold)",
+      "severity": "Very High",
+      "description": "Late blight is one of the most destructive plant diseases in history — it caused the Irish Potato Famine. It spreads explosively in cool, wet weather and can destroy an entire field within days. The pathogen produces sporangia that travel by wind and rain.",
+      "causes": [
+        "Oomycete (Phytophthora infestans) spores from infected plants, volunteer tomatoes, or potatoes",
+        "Cool, wet weather (10-20°C, >90% humidity) ideal for rapid spread",
+        "Wind carrying sporangia over long distances",
+        "Infected transplants or seed potatoes introducing the pathogen",
+        "Dense plantings and poor air circulation"
+      ],
+      "symptoms": [
+        "Large, dark green to brown water-soaked lesions on leaves",
+        "White fuzzy mold growth on underside of leaves in humid conditions",
+        "Rapidly expanding brown/black areas on stems",
+        "Firm, brown, greasy-looking lesions on fruit",
+        "Entire plant can collapse within 7-10 days"
+      ],
+      "affected_plants": ["Tomato", "Potato", "Petunia", "Nightshade"],
+      "chemical_treatment": [
+        "Metalaxyl/Mefenoxam — systemic, highly effective against oomycetes",
+        "Chlorothalonil — protectant, requires preventive application",
+        "Cymoxanil + mancozeb — combination with curative and protectant action"
+      ],
+      "eco_friendly_treatment": [
+        "Bordeaux mixture (1%) — copper-based organic-approved fungicide",
+        "Copper hydroxide spray — effective protectant for organic production",
+        "Trichoderma viride + Pseudomonas fluorescens — dual biocontrol agents",
+        "Neem oil spray (3%) — some suppressive activity against sporangia",
+        "Milk spray (10-40% solution) — some efficacy reported in research trials"
+      ],
+      "nutritional_impact": "High — infected fruit is inedible and must be discarded. Healthy fruit from partially affected plants retains normal nutritional value. The primary impact is total crop loss rather than nutritional degradation.",
+      "best_practices": [
+        "Monitor fields daily during cool, wet weather",
+        "Remove and destroy infected plants immediately — do not compost",
+        "Apply protectant fungicide BEFORE disease appears during favorable weather",
+        "Use varieties with late blight resistance (Defiant, Mountain Merit, Legend)",
+        "Avoid overhead irrigation; water at plant base",
+        "Destroy all volunteer tomato and potato plants in the area"
+      ],
+      "prevention": [
+        "Use late blight resistant varieties",
+        "Monitor late blight forecasting systems (USAblight.org equivalents)",
+        "Purchase clean transplants and seed",
+        "Destroy cull piles and volunteers",
+        "Apply preventive treatments during cool, wet periods"
+      ]
+    },
+    "Tomato___Leaf_Mold": {
+      "name": "Leaf Mold",
+      "plant": "Tomato",
+      "scientific_name": "Passalora fulva (syn. Cladosporium fulvum)",
+      "pathogen_type": "Fungal",
+      "severity": "Moderate",
+      "description": "Tomato leaf mold is primarily a greenhouse and high-tunnel disease favored by high humidity and poor ventilation. It produces pale green to yellow spots on upper leaf surfaces with olive-green to grayish-purple velvety growth underneath.",
+      "causes": [
+        "High relative humidity (>85%) and poor air ventilation",
+        "Temperatures of 22-25°C with condensation on leaf surfaces",
+        "Greenhouse or tunnel environments with inadequate ventilation",
+        "Dense planting and insufficient pruning",
+        "Spores persisting on greenhouse structures and stakes"
+      ],
+      "symptoms": [
+        "Pale green to yellowish diffuse spots on upper leaf surface",
+        "Olive-green to grayish-brown velvety mold on lower leaf surface",
+        "Leaves curl upward and eventually wither",
+        "Infection progresses from lower to upper canopy",
+        "Rarely affects fruit directly, but severe defoliation reduces yield"
+      ],
+      "affected_plants": ["Tomato (greenhouse varieties most susceptible)"],
+      "chemical_treatment": [
+        "Azoxystrobin — systemic strobilurin fungicide",
+        "Difenoconazole — triazole fungicide for curative action",
+        "Chlorothalonil — protectant application in field settings"
+      ],
+      "eco_friendly_treatment": [
+        "Improve ventilation — the most effective single intervention",
+        "Bacillus subtilis foliar spray — biocontrol colonizer",
+        "Potassium bicarbonate spray — disrupts fungal growth",
+        "Neem oil (2%) — reduces sporulation on treated surfaces",
+        "Silicon foliar spray — strengthens leaf cell walls and cuticle"
+      ],
+      "nutritional_impact": "Low — leaf mold rarely directly infects fruit. However, severe defoliation reduces photosynthetic capacity, potentially lowering sugar content (Brix) by 5-8% in harvested fruit. Lycopene and vitamin content remain normal.",
+      "best_practices": [
+        "Reduce humidity below 85% through ventilation and heating",
+        "Space plants and prune to allow air movement through canopy",
+        "Avoid wetting foliage — use drip irrigation only",
+        "Remove older infected leaves and dispose outside the growing area",
+        "Disinfect greenhouse structures, stakes, and clips between seasons",
+        "Grow resistant varieties (many modern hybrids carry Cf resistance genes)"
+      ],
+      "prevention": [
+        "Maintain greenhouse humidity below 85%",
+        "Install adequate ventilation/fans",
+        "Select Cf-gene resistant varieties",
+        "Clean and sanitize greenhouse between crops",
+        "Avoid leaf wetting during irrigation"
+      ]
+    },
+    "Rice___Brown_spot": {
+      "name": "Brown Spot",
+      "plant": "Rice",
+      "scientific_name": "Bipolaris oryzae (syn. Helminthosporium oryzae)",
+      "pathogen_type": "Fungal",
+      "severity": "Moderate to High",
+      "description": "Rice brown spot is a significant disease historically associated with the Bengal Famine of 1943. It causes oval to circular brown spots on leaves and can also infect grain, reducing both yield and grain quality. It is strongly associated with nutrient-deficient soils.",
+      "causes": [
+        "Fungal spores from infected seeds, crop debris, and wild grasses",
+        "Nutrient-deficient soils, especially lacking potassium and silicon",
+        "Drought stress or inconsistent water management",
+        "Temperature range of 25-30°C with high humidity",
+        "Use of infected, untreated seed"
+      ],
+      "symptoms": [
+        "Oval to circular brown spots on leaves with gray or white centers",
+        "Spots have dark brown margins",
+        "Spots on leaf sheaths and panicles",
+        "Infected grain shows brown discoloration and reduced quality",
+        "Severe cases lead to unfilled or shriveled grains"
+      ],
+      "affected_plants": ["Rice (all varieties, upland rice most susceptible)"],
+      "chemical_treatment": [
+        "Mancozeb — protective foliar spray",
+        "Carbendazim — systemic fungicide, seed treatment and foliar spray",
+        "Propiconazole — triazole fungicide for active disease control"
+      ],
+      "eco_friendly_treatment": [
+        "Trichoderma viride seed treatment (4g/kg seed) — reduces seed-borne inoculum",
+        "Pseudomonas fluorescens seed and foliar application — induces plant resistance",
+        "Neem cake soil application (150 kg/ha) — improves soil health and suppresses pathogen",
+        "Silicon fertilization (calcium silicate) — strengthens cell walls against fungal penetration",
+        "Panchagavya spray (3%) — traditional organic preparation enhancing plant immunity"
+      ],
+      "nutritional_impact": "Moderate — infected grains show 10-20% reduction in starch content and lower milling quality. Protein content may be slightly elevated in surviving grains (stress response). Iron and zinc micronutrient content is generally unaffected.",
+      "best_practices": [
+        "Use balanced fertilization — ensure adequate potassium, phosphorus, and silicon",
+        "Treat seeds with fungicide or biocontrol agent before sowing",
+        "Maintain consistent water management — avoid drought stress",
+        "Remove and destroy crop residues after harvest",
+        "Use certified disease-free seed",
+        "Apply foliar spray at tillering and boot stages if disease pressure is high"
+      ],
+      "prevention": [
+        "Use clean, certified seed",
+        "Seed treatment with Trichoderma or carbendazim",
+        "Correct soil nutrient deficiencies",
+        "Maintain proper water levels in paddy",
+        "Practice crop rotation where possible"
+      ]
+    }
+  },
+  "healthy_response": {
+    "description": "No disease detected. The plant appears healthy based on the visual analysis. Continue monitoring for early signs of disease and maintain good agricultural practices.",
+    "best_practices": [
+      "Continue regular crop monitoring at least twice a week",
+      "Maintain proper irrigation and drainage",
+      "Follow recommended fertilization schedule",
+      "Practice crop rotation to prevent disease buildup",
+      "Use certified disease-free planting material",
+      "Maintain proper spacing for air circulation",
+      "Remove weeds that may harbor pests and diseases"
+    ]
+  }
+}

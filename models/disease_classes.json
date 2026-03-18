@@ -1,0 +1,43 @@
+{
+  "classes": [
+    "Apple___Apple_scab",
+    "Apple___healthy",
+    "Corn_(maize)___Common_rust",
+    "Corn_(maize)___healthy",
+    "Grape___Black_rot",
+    "Grape___healthy",
+    "Potato___Early_blight",
+    "Potato___healthy",
+    "Tomato___Bacterial_spot",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Leaf_Mold",
+    "Tomato___healthy",
+    "Rice___Brown_spot",
+    "Rice___healthy"
+  ],
+  "treatments": {
+    "Apple___Apple_scab": "Apply fungicide (captan or myclobutanil). Remove infected leaves. Improve air circulation.",
+    "Apple___healthy": "No treatment needed. Continue regular care and monitoring.",
+    "Corn_(maize)___Common_rust": "Apply fungicide (azoxystrobin). Plant resistant varieties. Rotate crops.",
+    "Corn_(maize)___healthy": "No treatment needed. Maintain proper nutrition and irrigation.",
+    "Grape___Black_rot": "Remove infected fruit/leaves. Apply mancozeb or captan fungicide. Maintain canopy airflow.",
+    "Grape___healthy": "No treatment needed. Continue regular pruning and monitoring.",
+    "Potato___Early_blight": "Apply chlorothalonil or mancozeb fungicide. Rotate crops. Remove plant debris.",
+    "Potato___healthy": "No treatment needed. Maintain proper watering and fertilization.",
+    "Tomato___Bacterial_spot": "Apply copper-based bactericide. Remove infected plants. Avoid overhead irrigation.",
+    "Tomato___Early_blight": "Apply chlorothalonil fungicide. Mulch around plants. Stake plants for airflow.",
+    "Tomato___Late_blight": "Apply metalaxyl or chlorothalonil. Remove infected plants immediately. Avoid wet foliage.",
+    "Tomato___Leaf_Mold": "Improve ventilation. Reduce humidity. Apply fungicide if severe.",
+    "Tomato___healthy": "No treatment needed. Continue regular care.",
+    "Rice___Brown_spot": "Apply mancozeb or carbendazim. Use balanced fertilization. Treat seeds before planting.",
+    "Rice___healthy": "No treatment needed. Maintain proper water management."
+  },
+  "input_shape": [
+    224,
+    224,
+    3
+  ],
+  "model_type": "MobileNetV2",
+  "mode": "demo"
+}
